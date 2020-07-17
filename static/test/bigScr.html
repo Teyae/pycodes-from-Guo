@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <style>
+            html,body,#out{
+                width:100%;
+                height:100%;
+                padding:0px;
+                margin:0px;
+                border:0px
+            }
+            div{
+                border:0px;
+            }
+
+            #divl,#divr,#divlb,#divrb {
+                width:50%;
+                height:50%; 
+            }
+
+            #divl{
+                float:left;
+            }
+            #divr{
+                float:right;
+            }
+            #divlb{
+                float:left;
+            }
+            #divrb{
+                float:right;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <div id="out" style="background:red">
+            <div  id="divl" style="background:yellow"><h1>左上</h1></div>
+            <div  id="divr" style="background:green"><h1>右上</h1></div>
+            <div  id="divlb" style="background:#ccffcc"><h1>左下</h1></div>
+            <div  id="divrb" style="background:#3366ff"><h1>右下</h1></div>
+        </div>
+    </body>
+</html>
